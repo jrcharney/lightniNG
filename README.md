@@ -23,6 +23,8 @@ Users have control over what information they would like to see. Unlike other fr
 
 ## Wireframes
 
+> **Coming very soon!** 
+
 <!-- Uno -->
 <!-- Dos -->
 <!-- Tres -->
@@ -30,3 +32,7 @@ Users have control over what information they would like to see. Unlike other fr
 ## Follow along with the development!
 
 This is an active project, so there is a [Trello board](https://trello.com/b/u6vgjNE5/lightning-liftoff-project).
+
+## Production note
+
+This project will be deployed onto Github pages. A boilerplate page should be at this address shortly.
