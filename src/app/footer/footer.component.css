@@ -31,5 +31,15 @@ footer {
 /* That popup for Europeans */
 #cookiemodal {
   display: sticky;
-  /*TODO: This will need animation */
+  /* TODO: This will need animation */
 }
+
+#cookiemodal > h4 {}
+
+#cookiecols {}
+
+#cookieleft {}
+
+#cookieright {}
+
+#cookieright > button {}
