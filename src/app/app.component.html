@@ -1,8 +1,17 @@
-<!-- My Placeholder -->
+<!-- TODO: Move this to header later -->
+<header>
+  <h1>{{title}}</h1>
+</header>
+<nav>
+  <!-- TODO: Replace if user is logged in -->
+  <ul>
+    <li><a routerLink="./signup" routerLinkActive="active" title="Sign up for a new account">Sign up</a></li>
+    <li><a routerLink="./login"  routerLinkActive="active" title="Log in to your account">Login</a></li>
+  </ul>
+</nav>
 
-<h1>{{title}}</h1>
-<p>Coming soon</p>
-
-<!-- / My Placeholder -->
-
+<!-- This probably should stay here -->
 <router-outlet></router-outlet>
+
+<!-- TODO: Move this to footer later -->
+{{footer}}

@@ -1,0 +1,17 @@
+<header>
+  <h1>{{title}}</h1>
+</header>
+<nav>
+  <!-- TODO: Replace if user is logged in -->
+  <!-- TODO: What if we used modals? -->
+  <ul *ngIf="{{loggedin}};else loggedout">
+    <li><a routerLink="./signup" routerLinkActive="active" title="Sign up for a new account">Sign up</a></li>
+    <li><a routerLink="./login"  routerLinkActive="active" title="Log in to your account">Login</a></li>
+  </ul>
+  <ng-template #loggedout>
+  <ul>
+    <li><a routerLink="./signup" routerLinkActive="active" title="Sign up for a new account">Sign up</a></li>
+    <li><a routerLink="./login"  routerLinkActive="active" title="Log in to your account">Login</a></li>
+  </ul>
+  </ng-template>
+</nav>
